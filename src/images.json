@@ -1,143 +1,164 @@
 {   "images": [
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-01.jpg",
-        "id": "1",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-01.jpg",
+            "id": "1",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-02.jpg",
-        "id": "2",
-        "size": "portrait",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-02.jpg",
+            "id": "2",
+            "size": "portrait",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-03.jpg",
-        "id": "3",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-03.jpg",
+            "id": "3",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-04.jpg",
-        "id": "4",
-        "size": "portrait",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-04.jpg",
+            "id": "4",
+            "size": "portrait",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-05.jpg",
-        "id": "5",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-05.jpg",
+            "id": "5",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-06.jpg",
-        "id": "6",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-06.jpg",
+            "id": "6",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-07.jpg",
-        "id": "7",
-        "size": "portrait",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-07.jpg",
+            "id": "7",
+            "size": "portrait",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-08.jpg",
-        "id": "8",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-08.jpg",
+            "id": "8",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-09.jpg",
-        "id": "9",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-09.jpg",
+            "id": "9",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-10.jpg",
-        "id": "10",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-10.jpg",
+            "id": "10",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-11.jpg",
-        "id": "11",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-11.jpg",
+            "id": "11",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-12.jpg",
-        "id": "12",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-12.jpg",
+            "id": "12",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-13.jpg",
-        "id": "13",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-13.jpg",
+            "id": "13",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-14.jpg",
-        "id": "14",
-        "size": "big",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-14.jpg",
+            "id": "14",
+            "size": "big",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-15.jpg",
-        "id": "15",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-15.jpg",
+            "id": "15",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-16.jpg",
-        "id": "16",
-        "size": "landscape",
-        "isFavorite": false
-    },
-    
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-17.jpg",
-        "id": "17",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-16.jpg",
+            "id": "16",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
+        
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-17.jpg",
+            "id": "17",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-18.jpg",
-        "id": "18",
-        "size": "landscape",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-18.jpg",
+            "id": "18",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-19.jpg",
-        "id": "19",
-        "size": "portrait",
-        "isFavorite": false
-    },
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-19.jpg",
+            "id": "19",
+            "size": "portrait",
+            "price": 5.99,
+            "isFavorite": false
+        },
 
-    {
-        "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-20.jpg",
-        "id": "20",
-        "size": "landscape",
-        "isFavorite": false
-    }
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-20.jpg",
+            "id": "20",
+            "size": "landscape",
+            "price": 5.99,
+            "isFavorite": false
+        }
 
-] }
+    ] 
+}
 

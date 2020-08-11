@@ -1,4 +1,5 @@
 import React, {useState, useContext} from 'react';
+import PropTypes from 'prop-types';
 
 import {Context} from '../Context'
 
@@ -6,22 +7,29 @@ function Image({img}) {
 
     const [ isHovered, setIsHovered ] = useState(false);
 
-    const {toggleFavorite} = useContext(Context)
+    const {cartItems, toggleFavorite, addToCart, removeFromCart} = useContext(Context)
 
-    // const toggleFavorite = event => {
-    //     img.isFavorite = !img.isFavorite
-    //     console.log(img.id,img.isFavorite)
-    // }
+    const heartIcon = () => {
+        if(img.isFavorite) {
+            return <i   className="ri-heart-fill favorite"
+                        onClick={() => toggleFavorite(img.id)}></i>
+        } else if (isHovered) {
+            return <i   className={`ri-heart-line favorite`} 
+                        onClick={() => toggleFavorite(img.id)}></i>
+        }
+    }
 
+    const isInCart = cartItems.some(item => item.id === img.id)
 
-    const heartIcon = isHovered ? 
-        <i  className="ri-heart-line favorite" 
-            onClick={() => toggleFavorite(img.id)}></i> :
-        null
-
-    const cartIcon = isHovered ? 
-        <i className="ri-add-circle-line cart"></i>  :
-        null
+    const cartIcon = () => { 
+        if(isInCart) {
+            return <i   className="ri-shopping-cart-fill cart"
+                        onClick={() => removeFromCart(img.id)}></i>
+        } else if (isHovered) {
+            return <i   className="ri-add-circle-line cart"
+                        onClick={() => addToCart(img)}></i>
+        }
+    }
 
     return (
 
@@ -35,13 +43,25 @@ function Image({img}) {
                 className='image-grid' 
             />
             
-            {heartIcon}
-            {cartIcon}
+            {heartIcon()}
+            {cartIcon()}
 
         </div>
 
     );
 
 };
+
+Image.propTypes = {
+
+    img: PropTypes.shape({
+        url: PropTypes.string.isRequired,
+        id: PropTypes.string.isRequired,
+        size: PropTypes.string,
+        price: PropTypes.number,
+        isFavorite: PropTypes.bool
+    })
+
+}
 
 export default Image;

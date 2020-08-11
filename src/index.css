@@ -56,3 +56,15 @@ header {
   top: 10px;
   left: 10px;
 }
+
+
+
+/* Cart */
+
+.cart-item {
+  display: flex;
+}
+
+.cart-img {
+  width: 200px;
+}
