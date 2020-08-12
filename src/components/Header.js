@@ -15,11 +15,11 @@ function Header() {
 
         <header>
             <Link to="/">
-                <h2>Photo Gallery</h2>
+                <h2 className="home-link">Photo Gallery</h2>
             </Link>
 
             <Link to="/cart">
-                <i className={`ri-shopping-cart-${cartType} ri-fw ri-2x`}></i>
+                <i className={`ri-shopping-cart-${cartType} ri-fw ri-2x cart-link`}></i>
             </Link>
         </header>
 

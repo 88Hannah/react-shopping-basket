@@ -39,18 +39,22 @@ function Cart() {
     return (
 
         <main className="cart-page">
-            <h1>Check Out</h1>
+            <h1 className="cart-page-heading">Check Out</h1>
             {cartContent}
-            <p className='total-cost'>Total: {formattedTotal}</p>
+
             { 
-                cartItems.length > 0 ? 
-                <button 
-                    className='order-button'
-                    onClick={placeOrder}
-                >
-                    {buttonText}
-                </button> : 
-                <p>There are no items in your cart</p>
+                cartItems.length > 0 ?
+                <>
+                    <hr style={{marginTop:"20px"}}/>
+                    <p className='total-cost'>Total: {formattedTotal}</p> 
+                    <button 
+                        className='order-button'
+                        onClick={placeOrder}
+                    >
+                        {buttonText}
+                    </button>
+                </> : 
+                <p className="no-items">There are no items in your cart</p>
             }    
         </main>
 

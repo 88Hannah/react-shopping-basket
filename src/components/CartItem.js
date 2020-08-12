@@ -19,14 +19,14 @@ function CartItem({item}) {
         <div className="cart-item">
             <div ></div>
             
-            <i  className={`ri-delete-bin-${binType}`}
+            <i  className={`ri-delete-bin-${binType} ri-2x`}
                 onMouseEnter={() => setBinType('fill')}
                 onMouseLeave={() => setBinType('line')}
                 onClick={() => removeFromCart(item.id)}></i>
             <div className="cart-img">
                 <img src={item.url} />
             </div>
-            <p>{formattedPrice}</p>
+            <p className="price">{formattedPrice}</p>
         </div>
     )
 };
