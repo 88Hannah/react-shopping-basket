@@ -26,7 +26,19 @@ header {
   color: #0059cc;
 }
 
-.cart-link {
+.checkout-link {
+  display: flex;
+  align-items: center;
+}
+
+.items-in-cart {
+  font-size: 1.3em;
+  font-weight: 700;
+  padding-right: 5px;
+  color: aquamarine;
+}
+
+.cart-icon {
   color: #7fffd4;
 }
 

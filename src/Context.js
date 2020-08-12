@@ -1,18 +1,30 @@
 import React, {useState, useEffect} from 'react';
 import * as photoData from './images.json'; 
 
+import useSessionStorage from './hooks/useSessionStorage';
+
 const Context = React.createContext();
+
+
+
 
 function ContextProvider({children}) {
 
-    const [allPhotos, setAllPhotos] = useState([]);
-    const [cartItems, setCartItems] = useState([]);
+    const [cartItems, setCartItems] = useSessionStorage('storedCartItems');
+
+    const [allPhotos, setAllPhotos] = useSessionStorage('storedPhotoArray');
+    // const [allPhotos, setAllPhotos] = useState([]);
 
 
     useEffect(() => {
-        setAllPhotos(photoData.images);
+        console.log(allPhotos)
+        if (allPhotos.length === 0) {
+            console.log("I'm in!")
+            setAllPhotos(photoData.images);
+        };
     }, []);
-    
+
+
 
     const toggleFavorite = imgId => {
 
