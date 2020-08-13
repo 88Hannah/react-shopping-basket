@@ -11,11 +11,12 @@ function Header() {
     return (
         <header>
             <Link to="/">
-                <h2 className="home-link">Photo Gallery</h2>
+                <h2 className="home-link">Photo-Gallery</h2>
             </Link>
 
-            <Link to="/cart">
-                <i className={`ri-shopping-cart-${cartType} ri-fw ri-2x cart-link`}></i>
+            <Link to="/cart" className="checkout-link">
+                {cartItems.length ? <p className="items-in-cart">{cartItems.length}</p> : null}
+                <i className={`ri-shopping-cart-${cartType} ri-fw ri-2x cart-icon`}></i>
             </Link>
         </header>
     );

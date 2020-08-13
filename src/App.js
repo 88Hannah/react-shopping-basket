@@ -4,14 +4,14 @@ import {Switch, Route} from 'react-router-dom';
 import Header from './components/Header';
 import Cart from './pages/Cart';
 import Photos from './pages/Photos';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Header />
 
       <Switch>
-
         <Route exact path="/">
           <Photos />
         </Route>
@@ -19,9 +19,9 @@ function App() {
         <Route path="/cart">
           <Cart />
         </Route>
-
       </Switch>
 
+      <Footer />
     </div>
   );
 };
