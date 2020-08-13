@@ -8,11 +8,12 @@ function Cart() {
     const {cartItems, emptyCart} = useContext(Context);
     
     const [buttonText, setButtonText] = useState("Place Order");
+    const [cartMessage, setCartMessage] = useState('There are no items in your cart');
 
     const cartContent = cartItems.map(item => (
         <CartItem key={item.id} item={item} />
     ));
-
+    
     let total = 0;
 
     cartItems.forEach(item => {
@@ -25,10 +26,10 @@ function Cart() {
         if(cartItems.length > 0) {
             setButtonText("Ordering ...");
             setTimeout(() => {
-                console.log("Order Placed");
+                setCartMessage('Your order has been placed');
                 setButtonText('Place Order');
                 emptyCart();
-            }, 3000);
+            }, 2000);
         };
     };
 
@@ -40,7 +41,10 @@ function Cart() {
                 cartItems.length > 0 ?
                 <>
                     <hr style={{marginTop:"20px"}}/>
-                    <p className='total-cost'>Total: {formattedTotal}</p> 
+                    <div className="flex">
+                        <button className="" onClick={emptyCart}>Clear Cart</button>
+                        <p className='total-cost'>Total: {formattedTotal}</p> 
+                    </div>
                     <button 
                         className='order-button'
                         onClick={placeOrder}
@@ -48,7 +52,7 @@ function Cart() {
                         {buttonText}
                     </button>
                 </> : 
-                <p className="no-items">There are no items in your cart</p>
+                <p className="cart-message">{cartMessage}</p>
             }    
         </main>
     );

@@ -13,13 +13,11 @@ function ContextProvider({children}) {
     const [cartItems, setCartItems] = useSessionStorage('storedCartItems');
 
     const [allPhotos, setAllPhotos] = useSessionStorage('storedPhotoArray');
-    // const [allPhotos, setAllPhotos] = useState([]);
 
+    
 
     useEffect(() => {
-        console.log(allPhotos)
         if (allPhotos.length === 0) {
-            console.log("I'm in!")
             setAllPhotos(photoData.images);
         };
     }, []);
@@ -27,14 +25,12 @@ function ContextProvider({children}) {
 
 
     const toggleFavorite = imgId => {
-
         const updatedArray = allPhotos.map(photo => {
             if(photo.id === imgId) {
                 photo.isFavorite = !photo.isFavorite;
             };
             return photo;
         });
-
         setAllPhotos(updatedArray);
     };
 
@@ -46,9 +42,34 @@ function ContextProvider({children}) {
         setCartItems(prevItem => prevItem.filter(img => img.id !== removedId));
     };
 
+    // const clearFavorites = () => {
+    //     const allPhotosCopy = allPhotos;
+    //     allPhotosCopy.forEach(item => item.isFavorite = false);
+    //     setAllPhotos(allPhotosCopy);
+    // };
+
+    const clearFavorites = focusTo => {
+        const allPhotosCopy = allPhotos
+        const clearedFavourites = allPhotosCopy.map(item => ({...item, isFavorite: false}));       
+        setAllPhotos(clearedFavourites);
+        focusTo.focus();
+    }
+
+
     const emptyCart = () => {
         setCartItems([]);
     };
+
+    const addAllFavorites = () => {
+        
+        const allFavorites = allPhotos.filter(photo => photo.isFavorite)
+
+        const photosToAdd = allFavorites.filter(photo => (
+            !cartItems.some(item => item.id === photo.id)
+        ))
+        
+        setCartItems(prevItems => ([...prevItems, ...photosToAdd]))
+    }
 
     return (
         <Context.Provider value={{
@@ -57,7 +78,9 @@ function ContextProvider({children}) {
             toggleFavorite,
             addToCart,
             removeFromCart,
-            emptyCart
+            clearFavorites,
+            emptyCart,
+            addAllFavorites
         }}>
             {children}
         </Context.Provider>
