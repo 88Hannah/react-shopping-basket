@@ -11,7 +11,7 @@ function Header() {
     return (
         <header>
             <Link to="/">
-                <h2 className="home-link">Photo-Gallery</h2>
+                <h2 className="home-link">Photo Gallery</h2>
             </Link>
 
             <Link to="/cart" className="checkout-link">
