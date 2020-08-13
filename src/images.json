@@ -1,6 +1,7 @@
 {   "images": [
+
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-01.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-03.jpg",
             "id": "1",
             "size": "landscape",
             "price": 5.99,
@@ -8,95 +9,95 @@
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-02.jpg",
-            "id": "2",
-            "size": "portrait",
-            "price": 5.99,
-            "isFavorite": false
-        },
-
-        {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-03.jpg",
-            "id": "3",
-            "size": "landscape",
-            "price": 5.99,
-            "isFavorite": false
-        },
-
-        {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-04.jpg",
-            "id": "4",
-            "size": "portrait",
-            "price": 5.99,
-            "isFavorite": false
-        },
-
-        {
             "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-05.jpg",
-            "id": "5",
-            "size": "landscape",
-            "price": 5.99,
+            "id": "2",
+            "size": "big",
+            "price": 9.99,
             "isFavorite": false
         },
 
         {
             "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-06.jpg",
-            "id": "6",
+            "id": "3",
             "size": "landscape",
-            "price": 5.99,
+            "price": 6.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-07.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-30.jpg",
+            "id": "4",
+            "size": "wide",
+            "price": 7.99,
+            "isFavorite": false
+        },
+
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-14.jpg",
+            "id": "5",
+            "size": "landscape",
+            "price": 3.99,
+            "isFavorite": false
+        },
+
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-11.jpg",
+            "id": "6",
+            "size": "big",
+            "price": 9.99,
+            "isFavorite": false
+        },
+
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-15.jpg",
             "id": "7",
+            "size": "landscape",
+            "price": 4.99,
+            "isFavorite": false
+        },
+
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-20.jpg",
+            "id": "8",
+            "size": "big",
+            "price": 8.99,
+            "isFavorite": false
+        },
+
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-02.jpg",
+            "id": "9",
             "size": "portrait",
             "price": 5.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-08.jpg",
-            "id": "8",
-            "size": "landscape",
-            "price": 5.99,
-            "isFavorite": false
-        },
-
-        {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-09.jpg",
-            "id": "9",
-            "size": "landscape",
-            "price": 5.99,
-            "isFavorite": false
-        },
-
-        {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-10.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-05.jpg",
             "id": "10",
-            "size": "landscape",
-            "price": 5.99,
+            "size": "big",
+            "price": 9.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-11.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-24.jpg",
             "id": "11",
             "size": "landscape",
-            "price": 5.99,
+            "price": 3.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-12.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-26.jpg",
             "id": "12",
-            "size": "landscape",
-            "price": 5.99,
+            "size": "portrait",
+            "price": 6.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-13.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-31.jpg",
             "id": "13",
             "size": "landscape",
             "price": 5.99,
@@ -104,39 +105,39 @@
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-14.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-38.jpg",
             "id": "14",
-            "size": "big",
-            "price": 5.99,
+            "size": "portrait",
+            "price": 6.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-15.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-44.jpg",
             "id": "15",
-            "size": "landscape",
-            "price": 5.99,
+            "size": "wide",
+            "price": 8.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-16.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-46.jpg",
             "id": "16",
             "size": "landscape",
-            "price": 5.99,
-            "isFavorite": false
-        },
-        
-        {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-17.jpg",
-            "id": "17",
-            "size": "landscape",
-            "price": 5.99,
+            "price": 6.99,
             "isFavorite": false
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-18.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-19.jpg",
+            "id": "17",
+            "size": "landscape",
+            "price": 4.99,
+            "isFavorite": false
+        },
+
+        {
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-20.jpg",
             "id": "18",
             "size": "landscape",
             "price": 5.99,
@@ -144,18 +145,10 @@
         },
 
         {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-19.jpg",
+            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/new-zealand/new-zealand-51.jpg",
             "id": "19",
-            "size": "portrait",
-            "price": 5.99,
-            "isFavorite": false
-        },
-
-        {
-            "url": "https://raw.githubusercontent.com/88Hannah/travel-website/master/images/australia/australia-20.jpg",
-            "id": "20",
             "size": "landscape",
-            "price": 5.99,
+            "price": 6.99,
             "isFavorite": false
         }
 

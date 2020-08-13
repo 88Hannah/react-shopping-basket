@@ -34,7 +34,7 @@ function Image({img}) {
 
     return (
         <div className={`${img.size} image-container`} ref={hoverRef}>
-            <img src={img.url} className='image-grid'/>
+            <img src={img.url} className='image-grid' alt='Item to purchase'/>
             {heartIcon()}
             {cartIcon()}
         </div>

@@ -15,11 +15,11 @@ function CartItem({item}) {
 
     return (
         <div className="cart-item">
-            <i  className={`ri-delete-bin-${binType} ri-2x`}
+            <i  className={`ri-delete-bin-${binType} ri-2x delete`}
                 ref={hoverRef}
                 onClick={() => removeFromCart(item.id)}></i>
             <div className="cart-img">
-                <img src={item.url} />
+                <img src={item.url} alt='item in cart'/>
             </div>
             <p className="price">{formattedPrice}</p>
         </div>

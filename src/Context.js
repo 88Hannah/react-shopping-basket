@@ -1,12 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import * as photoData from './images.json'; 
 
 import useSessionStorage from './hooks/useSessionStorage';
 
 const Context = React.createContext();
-
-
-
 
 function ContextProvider({children}) {
 
@@ -14,15 +11,11 @@ function ContextProvider({children}) {
 
     const [allPhotos, setAllPhotos] = useSessionStorage('storedPhotoArray');
 
-    
-
     useEffect(() => {
         if (allPhotos.length === 0) {
             setAllPhotos(photoData.images);
         };
     }, []);
-
-
 
     const toggleFavorite = imgId => {
         const updatedArray = allPhotos.map(photo => {
@@ -42,19 +35,11 @@ function ContextProvider({children}) {
         setCartItems(prevItem => prevItem.filter(img => img.id !== removedId));
     };
 
-    // const clearFavorites = () => {
-    //     const allPhotosCopy = allPhotos;
-    //     allPhotosCopy.forEach(item => item.isFavorite = false);
-    //     setAllPhotos(allPhotosCopy);
-    // };
-
-    const clearFavorites = focusTo => {
-        const allPhotosCopy = allPhotos
+    const clearFavorites = () => {
+        const allPhotosCopy = allPhotos;
         const clearedFavourites = allPhotosCopy.map(item => ({...item, isFavorite: false}));       
         setAllPhotos(clearedFavourites);
-        focusTo.focus();
-    }
-
+    };
 
     const emptyCart = () => {
         setCartItems([]);
@@ -62,14 +47,14 @@ function ContextProvider({children}) {
 
     const addAllFavorites = () => {
         
-        const allFavorites = allPhotos.filter(photo => photo.isFavorite)
+        const allFavorites = allPhotos.filter(photo => photo.isFavorite);
 
         const photosToAdd = allFavorites.filter(photo => (
             !cartItems.some(item => item.id === photo.id)
-        ))
+        ));
         
-        setCartItems(prevItems => ([...prevItems, ...photosToAdd]))
-    }
+        setCartItems(prevItems => ([...prevItems, ...photosToAdd]));
+    };
 
     return (
         <Context.Provider value={{
@@ -84,7 +69,7 @@ function ContextProvider({children}) {
         }}>
             {children}
         </Context.Provider>
-    )
+    );
 };
 
 export {ContextProvider, Context};
